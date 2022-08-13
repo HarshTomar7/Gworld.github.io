@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto+Condensed&family=Roboto:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Merriweather', serif;
+
+    font-family: 'Roboto', sans-serif;
+
+    font-family: 'Roboto Condensed', sans-serif;
+    overflow-x: hidden;
+}
+
+.header {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/tt.jpg);
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.main ul {
+    margin-top: 37vh;
+    margin-right: 33vw;
+
+}
+
+.main ul li {
+
+    padding: 28px;
+    list-style: none;
+    display: inline-block;
+}
+
+.main ul li a {
+    text-decoration: none;
+    color: rgb(253, 139, 32);
+    font-size: 20px;
+}
+
+.main ul li a:hover {
+    color: rgb(175, 85, 0);
+}
+
+.main-h {
+    position: relative;
+    top: 30vh;
+    left: 30vw;
+    color: white;
+    font-size: 55px;
+    line-height: 6vh;
+}
+
+.logo {
+    position: relative;
+    bottom: 36vh;
+    left: 5vw;
+    color: rgb(8, 255, 173);
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.benefits {
+    height: 100vh;
+    width: 100%;
+
+}
+
+.circle {
+    position: relative;
+    bottom: 24vh;
+    left: 3vw;
+    height: 30vh;
+
+}
+
+.gr {
+    position: relative;
+    bottom: -19vh;
+    left: 6vw;
+    height: 70vh;
+    width: 35vw;
+    border-radius: 50%;
+}
+
+.blankk {
+    position: relative;
+    top: -9vh;
+    left: 8vw;
+    background-color: brown;
+    height: 36vh;
+    width: 25vw;
+    border-radius: 50%;
+    border: 10px solid white;
+
+}
+
+.ben-h {
+    position: relative;
+    bottom: 91vh;
+    text-align: right;
+    right: 8vw;
+    font-size: 50px;
+}
+
+.last {
+    position: relative;
+    bottom: 90vh;
+    left: 52vw;
+    height: 60vh;
+    width: 32vw;
+    background-color: rgb(199, 196, 196);
+}
+.last h1{
+    padding: 13px 70px;
+    font-size: 28px;
+}
+.last p{
+    font-size: 20px;
+    padding: 30px 0;
+    line-height: 33px;
+}
+.benefits-btn{
+    height: 7vh;
+    width: 13vw;
+    background-color: rgb(78, 78, 228);
+    border: none;
+    margin: 44px 8vw;
+    color: white;
+    font-size: 16px;
+}
+.benefits-btn:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+
+.second h3 {
+    position: relative;
+    left: 40vw;
+    font-size: 60px;
+
+}
+
+.first {
+    margin-top: 20vh;
+    margin-left: 8vw;
+    height: 70vh;
+    border-radius: 50%;
+}
+
+.second-h {
+    position: relative;
+    bottom: 50vh;
+    left: 52vw;
+    height: 60vh;
+    width: 40vw;
+    background-color: rgb(233, 221, 221);
+    border-radius: 10px;
+}
+
+.second-h h2 {
+    font-size: 30px;
+    padding: 31px 111px;
+    color: black;
+}
+
+.second-h p {
+    font-size: 19px;
+    line-height: 42px;
+    padding-left: 20px;
+}
+
+.btn {
+    margin-top: 1vh;
+    margin-left: 12vw;
+    height: 57px;
+    width: 163px;
+    background-color: rgb(58, 73, 152);
+    color: white;
+    font-size: 15px;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.seconddd {
+    position: relative;
+    bottom: 82vh;
+    height: 30vh;
+    border-radius: 50%;
+    border: 9px solid white;
+
+}
+
+.games {
+    height: 100vh;
+    width: 100%;
+}
+
+.blank {
+    position: relative;
+    bottom: -28vh;
+    left: 12vw;
+    background-color: navy;
+    height: 66vh;
+    width: 74vw;
+}
+
+.blank img {
+    margin-top: -25vh;
+    margin-left: 7vw;
+    height: 72vh;
+    width: 60vw;
+}
+
+.games-head {
+    position: relative;
+    bottom: 18vh;
+    left: 4vw;
+    height: 42vh;
+    width: 30vw;
+    background-color: white;
+}
+
+.games-head h1 {
+    font-size: 33px;
+    padding: 0 70px;
+    line-height: 71px;
+}
+
+.games-head p {
+    font-size: 25px;
+    padding: 20px 0;
+    line-height: 36px;
+}
+
+.about {
+    height: 100vh;
+    width: 100%;
+    background-color: brown;
+}
+
+.about-div {
+    background-color: rgb(253, 192, 112);
+    height: 100vh;
+    width: 26vw;
+    margin-left: 49vw;
+}
+
+.about-div img {
+    position: relative;
+    right: 17vw;
+    top: 22vh;
+    height: 70vh;
+    width: 55vw;
+
+}
+
+.about-head {
+    position: relative;
+    bottom: 50vh;
+    right: 43vw;
+    box-sizing: border-box;
+    height: 62vh;
+    width: 30vw;
+    background-color: white;
+}
+
+.about-head h2 {
+    font-size: 30px;
+    padding: 4vh 6vw;
+}
+
+.about-head p {
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.about-btn {
+    position: relative;
+    top: 9vh;
+    left: 7vw;
+    height: 8vh;
+    width: 14vw;
+    background-color: transparent;
+    border: 1px solid black;
+    font-size: 16px;
+    letter-spacing: 3px;
+
+}
+
+.about-btn:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.contact {
+    height: 100vh;
+    width: 100%;
+}
+
+.contact-img {
+    position: relative;
+    top: 12vh;
+    left: 9vw;
+    height: 75vh;
+    width: 40vw;
+}
+
+.contact h1 {
+    font-size: 50px;
+    text-align: right;
+    position: relative;
+    right: 20vw;
+    top: 12vh;
+}
+
+.contact form {
+    position: relative;
+    left: 50vw;
+    bottom: 60vh;
+}
+
+.contact form li {
+    list-style: none;
+    padding: 20px;
+
+
+}
+
+.name input {
+    height: 7vh;
+    width: 36vw;
+    font-size: 18px;
+}
+
+.msg input {
+    height: 20vh;
+    width: 36vw;
+    font-size: 18px;
+}
+
+.email input {
+    height: 7vh;
+    width: 36vw;
+    font-size: 18px;
+}
+
+.contact-btn {
+    position: relative;
+    bottom: 54vh;
+    left: 61vw;
+    height: 8vh;
+    width: 11vw;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 43px;
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+.contact-btn:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 6vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 3vh;
+
+}
